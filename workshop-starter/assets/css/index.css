@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    margin: 0;
+    user-select: none;
+}
+
+#mario {
+    background: #000;
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #fff;
+    display: none;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.game-over.visible {
+    display: block;
+}
+
+.score {
+    position: absolute;
+    font-size: 21px;
+    top: 10px;
+    left: 10px;
+}
